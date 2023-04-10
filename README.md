@@ -64,7 +64,7 @@ In another terminal
   "url": "https:///get"
 }
 * Connection #0 to host localhost left intact
-(base) ➜  ~ curl -X POST http://localhost:8080/post -d'{"name":"nick", "email":"nick.jiang@hilton.com"}' -v
+(base) ➜  ~ curl -X POST http://localhost:8080/post -d'{"name":"nick", "email":"nick.jiang@unknown.com"}' -v
 Note: Unnecessary use of -X or --request, POST is already inferred.
 *   Trying 127.0.0.1:8080...
 * Connected to localhost (127.0.0.1) port 8080 (#0)
